@@ -1,0 +1,14 @@
+digraph G {
+    graph [ overlap=false, rankdir=LR ]
+    node [shape=record, fontname="PT Sans", style=filled, fillcolor=wheat]
+
+    main            [ label="<title> Главная страница|<add> Добавить заметку|<search> Поиск|<account> Профиль|<languages> Языки" ]
+    search          [ label="Результаты поиска" ]
+    edit_profile    [ label="Изменение профиля" ]
+    add             [ label="Добавление заметки" ]
+
+    main:add        -> add
+    main:search     -> search
+    main:account    -> { edit_profile }
+    main:languages  -> main:title
+}
