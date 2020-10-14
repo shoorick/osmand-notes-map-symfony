@@ -27,6 +27,11 @@ symfony serve
 
 Hit `Ctrl+C` to stop the server.
 
+See also
+--------
+
+* [Symfony 5: The Fast Track](https://symfony.com/book)
+
 Author
 ------
 
