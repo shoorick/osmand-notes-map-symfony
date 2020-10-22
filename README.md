@@ -15,6 +15,15 @@ Requirements
 * Composer
 * Symfony
 
+### Preparing
+
+```bash
+composer install
+# nvm use v*.*.* # when you use Node Version Manager
+npm install -g yarn
+yarn install
+```
+
 How to run
 ----------
 
