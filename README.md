@@ -22,6 +22,7 @@ composer install
 # nvm use v*.*.* # when you use Node Version Manager
 npm install -g yarn
 yarn install
+symfony run yarn encore dev
 ```
 
 How to run
